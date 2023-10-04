@@ -19,6 +19,7 @@ box-shadow: 2px 2px 3px black;
 background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 21.59.00.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+background-position: top right;
 background-attachment: fixed;
 padding: 150px;
 margin: 0px -20px;
@@ -27,6 +28,7 @@ margin: 0px -20px;
     background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 22.00.33.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top right;
     background-attachment: fixed;
     padding: 150px;
     margin: 0px -20px;    
@@ -45,16 +47,17 @@ table {
     border-collapse: collapse;
     margin: auto;
     margin-bottom: 15px;
+    width: 100%;
 
 }
 tr > td:nth-child(1) {
-    width: 180px;
+    max-width: 180px;
 }
 tr > td:nth-child(2) {
-    width: 80px;
+    max-width: 80px;
 }
 tr > td:nth-child(3) {
-    width: 140px;
+    max-width: 140px;
 }
 caption {
     background-color: gray;
