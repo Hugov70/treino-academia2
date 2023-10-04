@@ -4,7 +4,7 @@ body {
     margin-top: 0px; 
    }
 h1 {
-    text-align: center;
+    text-align: center; 
 }
 main {
 background-color: white;
@@ -16,10 +16,29 @@ border-radius: 10px;
 box-shadow: 2px 2px 3px black;
 }
 #ta {
-background-image: url(imagens/flores-amarelas-0.webp);
+background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 21.59.00.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 background-attachment: fixed;
-padding: 10px;
+padding: 150px;
 margin: 0px -20px;
+}
+#tb {
+    background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 22.00.33.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+    margin: 0px -20px;    
+}
+#tc {
+    background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 22.05.29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 150px;
+    margin: 0px -20px;    
 }
 table {
     background-color: white;
