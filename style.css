@@ -1,0 +1,58 @@
+body {
+    background-color: #F8F4A6;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-top: 0px; 
+   }
+h1 {
+    text-align: center;
+}
+main {
+background-color: white;
+min-width: 300px;
+max-width: 800px;
+margin: auto;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 2px 2px 3px black;
+}
+#ta {
+background-image: url(imagens/flores-amarelas-0.webp);
+background-attachment: fixed;
+padding: 10px;
+margin: 0px -20px;
+}
+table {
+    background-color: white;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+tr > td:nth-child(1) {
+    width: 180px;
+}
+tr > td:nth-child(2) {
+    width: 80px;
+}
+tr > td:nth-child(3) {
+    width: 140px;
+}
+caption {
+    background-color: gray;
+    font-size: 1.3em;
+    padding: 5px;
+    border: 1px solid black;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    
+}
+tfoot {
+    padding: 5px;
+    background-color: gray;
+}
+.series {
+    background-color: lightgray;
+}
