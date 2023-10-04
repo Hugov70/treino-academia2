@@ -16,6 +16,8 @@ border-radius: 10px;
 box-shadow: 2px 2px 3px black;
 }
 #ta {
+min-width: 300px;
+max-width: 800px;
 background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 21.59.00.jpg);
 background-repeat: no-repeat;
 background-size: cover;
@@ -25,6 +27,8 @@ padding: 150px;
 margin: 0px -20px;
 }
 #tb {
+    min-width: 300px;
+    max-width: 800px;    
     background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 22.00.33.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +38,8 @@ margin: 0px -20px;
     margin: 0px -20px;    
 }
 #tc {
+    min-width: 300px;
+    max-width: 800px;    
     background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2023-10-03\ à\(s\)\ 22.05.29.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +49,8 @@ margin: 0px -20px;
     margin: 0px -20px;    
 }
 table {
+    min-width: 120px;
+    max-width: 300px;    
     background-color: white;
     border-collapse: collapse;
     margin: auto;
